@@ -1,21 +1,37 @@
-﻿using OpenQA.Selenium;
+﻿using System.Threading;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Support.PageObjects;
 
 namespace SeleniumTestTask.Pages
 {
 	[Page("Yandex - main page")]
-	public class YandexMainPage
+	public class YandexMainPage : BasePage
 	{
-		private static string Uri = "www.ya.ru";
-		private readonly IWebDriver _driver;
+		private const string Url = "http://www.ya.ru/";
 
-		public YandexMainPage(IWebDriver driver)
+		[FindsBy(How = How.CssSelector, Using = "#text")]
+		private IWebElement searchField;
+
+		[FindsBy(How = How.CssSelector, Using = "button[role=button]")]
+		private IWebElement searchButton;
+
+		public YandexMainPage(Navigator navigator) : base(navigator)
 		{
-			_driver = driver;
 		}
 
 		public void Open()
 		{
-			_driver.Navigate().GoToUrl(Uri);
+			Navigator.GoTo(Url);
+		}
+
+		public void EnterInSeacrhField(string searchText)
+		{
+			searchField.SendKeys(searchText);
+		}
+
+		public void Search()
+		{
+			searchButton.Click();
 		}
 	}
 }

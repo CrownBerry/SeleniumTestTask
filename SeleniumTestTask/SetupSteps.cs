@@ -13,18 +13,20 @@ namespace SeleniumTestTask
 	public class SetupSteps
 	{
 		private IWebDriver _driver;
-		private readonly IObjectContainer _objectContainer;
+		private Navigator _navigator;
+		private readonly IObjectContainer objectContainer;
 
 		public SetupSteps(IObjectContainer objectContainer)
 		{
-			_objectContainer = objectContainer;
+			this.objectContainer = objectContainer;
 		}
 
 		[BeforeScenario]
 		public void BeforeScenario()
 		{
-			InitializeDriver();
-			_objectContainer.RegisterInstanceAs(_driver);
+			_driver = WebDriverFactory.CreateChromeDriver();
+			_navigator = new Navigator(_driver);
+			objectContainer.RegisterInstanceAs(_navigator);
 			RegisterPages();
 		}
 
@@ -45,25 +47,17 @@ namespace SeleniumTestTask
 
 					if (!string.IsNullOrEmpty(pageName))
 					{
-						_objectContainer.RegisterInstanceAs(
-							Activator.CreateInstance(type, _driver), pageName);
+						objectContainer.RegisterInstanceAs(
+							Activator.CreateInstance(type, _navigator), pageName);
 					}
 					else
 					{
-						_objectContainer.RegisterInstanceAs(
-							Activator.CreateInstance(type, _driver));
+						objectContainer.RegisterInstanceAs(
+							Activator.CreateInstance(type, _navigator));
 					}
 				}
 		}
 
-		private void InitializeDriver()
-		{
-			var options = new ChromeOptions();
-			options.AddUserProfilePreference("pageLoadStrategy", "normal");
-			options.AddUserProfilePreference("disable-popup-blocking", "true");
-			options.AddUserProfilePreference("intl.accept_languages", "ru");
-			_driver = new ChromeDriver(options);
-			_driver.Manage().Window.Maximize();
-		}
+
 	}
 }
