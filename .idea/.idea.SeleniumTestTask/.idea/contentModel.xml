@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Repos\SeleniumTestTask" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive">
+        <e p="NUnit3TestAdapter.3.9.0\build\net35\Mono.Cecil.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0\build\net35\Mono.Cecil.Mdb.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0\build\net35\Mono.Cecil.Pdb.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0\build\net35\Mono.Cecil.Rocks.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0\build\net35\nunit.engine.api.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0\build\net35\nunit.engine.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0\build\net35\NUnit3.TestAdapter.dll" t="Include" />
+      </e>
+      <e p="SeleniumTestTask" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SeleniumTestTask.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="SeleniumTestTask.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\User\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_SeleniumTestTask.1800738710.00" t="ExcludeRecursive" />
+  </component>
+</project>
