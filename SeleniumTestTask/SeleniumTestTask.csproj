@@ -61,15 +61,23 @@
     <Reference Include="TechTalk.SpecFlow.Utils, Version=2.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41">
       <HintPath>..\packages\SpecFlow.CustomPlugin.2.3.0\lib\net45\TechTalk.SpecFlow.Utils.dll</HintPath>
     </Reference>
+    <Reference Include="WebDriver, Version=3.9.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Selenium.WebDriver.3.9.1\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.9.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Selenium.Support.3.9.1\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Features\YandexSearch.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>YandexSearch.feature</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Page.cs" />
+    <Compile Include="Pages\YandexMainPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetupSteps.cs" />
     <Compile Include="Steps\YandexSearchSteps.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +90,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SpecFlow.2.3.0\build\SpecFlow.targets" Condition="Exists('..\packages\SpecFlow.2.3.0\build\SpecFlow.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.2.35.0\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.35.0\build\Selenium.WebDriver.ChromeDriver.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 		 Other similar extension points exist, see Microsoft.Common.targets.
 	<Target Name="BeforeBuild">
