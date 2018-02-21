@@ -7,6 +7,8 @@ namespace SeleniumTestTask.Pages
 	[Page("Wiki - article page")]
 	public class WikiArticlePage : BasePage
 	{
+		private const string title = "Википедия";
+
 		[FindsBy(How = How.CssSelector, Using = "#firstHeading")]
 		private IWebElement header;
 		
@@ -16,6 +18,7 @@ namespace SeleniumTestTask.Pages
 
 		public void AssertItsArticleAbout(string articleTitle)
 		{
+			Assert.True(Navigator.Title().Contains(title));
 			Assert.True(header.Text.Contains(articleTitle));
 		}
 	}

@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34d1d788-8c8d-4020-b0e7-c2c725c4574e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumTestTask/Navigator.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumTestTask/Pages/BasePage.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumTestTask/Pages/WikiArticlePage.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumTestTask/Pages/YandexSearchResultsPage.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumTestTask/WebDriverFactory.cs" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SeleniumTestTask/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.SeleniumTestTask/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SeleniumTestTask/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.SeleniumTestTask/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTestTask/Features/YandexSearch.feature" afterPath="$PROJECT_DIR$/SeleniumTestTask/Features/YandexSearch.feature" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTestTask/Features/YandexSearch.feature.cs" afterPath="$PROJECT_DIR$/SeleniumTestTask/Features/YandexSearch.feature.cs" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTestTask/Pages/YandexMainPage.cs" afterPath="$PROJECT_DIR$/SeleniumTestTask/Pages/YandexMainPage.cs" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTestTask/SeleniumTestTask.csproj" afterPath="$PROJECT_DIR$/SeleniumTestTask/SeleniumTestTask.csproj" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTestTask/SetupSteps.cs" afterPath="$PROJECT_DIR$/SeleniumTestTask/SetupSteps.cs" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTestTask/Steps/YandexSearchSteps.cs" afterPath="$PROJECT_DIR$/SeleniumTestTask/Steps/YandexSearchSteps.cs" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTestTask/packages.config" afterPath="$PROJECT_DIR$/SeleniumTestTask/packages.config" />
+      <change beforePath="$PROJECT_DIR$/SeleniumTestTask/Navigator.cs" afterPath="$PROJECT_DIR$/SeleniumTestTask/Navigator.cs" />
+      <change beforePath="$PROJECT_DIR$/SeleniumTestTask/Pages/WikiArticlePage.cs" afterPath="$PROJECT_DIR$/SeleniumTestTask/Pages/WikiArticlePage.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,14 +49,14 @@
       <file leaf-file-name="WikiArticlePage.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Pages/WikiArticlePage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+            <state relative-caret-position="187">
+              <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
               <folding>
-                <marker date="1519242502688" expanded="true" signature="6:88" ph="..." />
-                <marker date="1519242502688" expanded="true" signature="122:487" ph="{...}" />
-                <marker date="1519242502688" expanded="true" signature="196:485" ph="{...}" />
-                <marker date="1519242502688" expanded="true" signature="356:364" ph="{...}" />
-                <marker date="1519242502688" expanded="true" signature="422:482" ph="{...}" />
+                <marker date="1519243059902" expanded="true" signature="6:88" ph="..." />
+                <marker date="1519243059902" expanded="true" signature="122:583" ph="{...}" />
+                <marker date="1519243059902" expanded="true" signature="196:581" ph="{...}" />
+                <marker date="1519243059902" expanded="true" signature="401:409" ph="{...}" />
+                <marker date="1519243059902" expanded="true" signature="467:578" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -163,16 +152,17 @@
       <file leaf-file-name="Navigator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Navigator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="245">
+              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
-                <marker date="1519242821460" expanded="true" signature="6:53" ph="..." />
-                <marker date="1519242821460" expanded="true" signature="81:442" ph="{...}" />
-                <marker date="1519242821460" expanded="true" signature="107:440" ph="{...}" />
-                <marker date="1519242821460" expanded="true" signature="179:208" ph="{...}" />
-                <marker date="1519242821460" expanded="true" signature="240:284" ph="{...}" />
-                <marker date="1519242821460" expanded="true" signature="314:341" ph="{...}" />
-                <marker date="1519242821460" expanded="true" signature="373:437" ph="{...}" />
+                <marker date="1519242985167" expanded="true" signature="6:53" ph="..." />
+                <marker date="1519242985167" expanded="true" signature="81:564" ph="{...}" />
+                <marker date="1519242985167" expanded="true" signature="107:562" ph="{...}" />
+                <marker date="1519242985167" expanded="true" signature="179:208" ph="{...}" />
+                <marker date="1519242985167" expanded="true" signature="240:284" ph="{...}" />
+                <marker date="1519242985167" expanded="true" signature="314:341" ph="{...}" />
+                <marker date="1519242985167" expanded="true" signature="366:399" ph="{...}" />
+                <marker date="1519242985167" expanded="true" signature="431:559" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -202,15 +192,15 @@
         <option value="$PROJECT_DIR$/SeleniumTestTask/Pages/Page.cs" />
         <option value="$PROJECT_DIR$/SeleniumTestTask/Pages/YandexSearchResult.cs" />
         <option value="$PROJECT_DIR$/SeleniumTestTask/Pages/YandexSearchResultPage.cs" />
-        <option value="$PROJECT_DIR$/SeleniumTestTask/Features/YandexSearch.feature" />
         <option value="$PROJECT_DIR$/SeleniumTestTask/Pages/BasePage.cs" />
         <option value="$PROJECT_DIR$/SeleniumTestTask/Pages/YandexMainPage.cs" />
         <option value="$PROJECT_DIR$/SeleniumTestTask/SetupSteps.cs" />
         <option value="$PROJECT_DIR$/SeleniumTestTask/WebDriverFactory.cs" />
         <option value="$PROJECT_DIR$/SeleniumTestTask/Steps/YandexSearchSteps.cs" />
-        <option value="$PROJECT_DIR$/SeleniumTestTask/Pages/WikiArticlePage.cs" />
-        <option value="$PROJECT_DIR$/SeleniumTestTask/Navigator.cs" />
         <option value="$PROJECT_DIR$/SeleniumTestTask/Pages/YandexSearchResultsPage.cs" />
+        <option value="$PROJECT_DIR$/SeleniumTestTask/Navigator.cs" />
+        <option value="$PROJECT_DIR$/SeleniumTestTask/Features/YandexSearch.feature" />
+        <option value="$PROJECT_DIR$/SeleniumTestTask/Pages/WikiArticlePage.cs" />
       </list>
     </option>
   </component>
@@ -253,6 +243,19 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="SeleniumTestTask (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="SeleniumTestTask" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SeleniumTestTask (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SeleniumTestTask" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Features" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SeleniumTestTask (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SeleniumTestTask" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Features" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="YandexSearch.feature" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -324,7 +327,7 @@
       <updated>1519228996182</updated>
       <workItem from="1519228998119" duration="235000" />
       <workItem from="1519229380633" duration="3514000" />
-      <workItem from="1519235129414" duration="6644000" />
+      <workItem from="1519235129414" duration="6867000" />
     </task>
     <task id="LOCAL-00001" summary="Add feature file and steps scaffolds">
       <created>1519229815136</created>
@@ -340,11 +343,25 @@
       <option name="project" value="LOCAL" />
       <updated>1519234288945</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="And more work with driver and pages">
+      <created>1519242869725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519242869725</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Change switching method">
+      <created>1519242922907</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519242922907</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10393000" />
+    <option name="totallyTimeSpent" value="10616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,12 +374,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45723686" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43585527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -392,7 +408,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add feature file and steps scaffolds" />
     <MESSAGE value="Add SetupSteps, first Page, and create objectContainer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SetupSteps, first Page, and create objectContainer" />
+    <MESSAGE value="And more work with driver and pages" />
+    <MESSAGE value="Change switching method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change switching method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -497,49 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Features/YandexSearch.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Pages/YandexMainPage.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1519242022751" expanded="false" signature="6:89" ph="..." />
-            <marker date="1519242022751" expanded="true" signature="123:725" ph="{...}" />
-            <marker date="1519242022751" expanded="true" signature="195:723" ph="{...}" />
-            <marker date="1519242022751" expanded="true" signature="503:511" ph="{...}" />
-            <marker date="1519242022751" expanded="true" signature="533:565" ph="{...}" />
-            <marker date="1519242022751" expanded="true" signature="618:663" ph="{...}" />
-            <marker date="1519242022751" expanded="true" signature="687:720" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Steps/YandexSearchSteps.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="53" column="49" lean-forward="false" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
-          <folding>
-            <marker date="1519242464612" expanded="true" signature="6:78" ph="..." />
-            <marker date="1519242464612" expanded="true" signature="112:1524" ph="{...}" />
-            <marker date="1519242464612" expanded="true" signature="157:1522" ph="{...}" />
-            <marker date="1519242464612" expanded="true" signature="474:613" ph="{...}" />
-            <marker date="1519242464612" expanded="true" signature="693:728" ph="{...}" />
-            <marker date="1519242464612" expanded="true" signature="830:889" ph="{...}" />
-            <marker date="1519242464612" expanded="true" signature="964:1001" ph="{...}" />
-            <marker date="1519242464612" expanded="true" signature="1122:1193" ph="{...}" />
-            <marker date="1519242464612" expanded="true" signature="1291:1353" ph="{...}" />
-            <marker date="1519242464612" expanded="true" signature="1454:1519" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Pages/BasePage.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -586,22 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Navigator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <marker date="1519242821460" expanded="true" signature="6:53" ph="..." />
-            <marker date="1519242821460" expanded="true" signature="81:442" ph="{...}" />
-            <marker date="1519242821460" expanded="true" signature="107:440" ph="{...}" />
-            <marker date="1519242821460" expanded="true" signature="179:208" ph="{...}" />
-            <marker date="1519242821460" expanded="true" signature="240:284" ph="{...}" />
-            <marker date="1519242821460" expanded="true" signature="314:341" ph="{...}" />
-            <marker date="1519242821460" expanded="true" signature="373:437" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Pages/YandexSearchResultsPage.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -617,16 +576,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Pages/YandexMainPage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1519242022751" expanded="false" signature="6:89" ph="..." />
+            <marker date="1519242022751" expanded="true" signature="123:725" ph="{...}" />
+            <marker date="1519242022751" expanded="true" signature="195:723" ph="{...}" />
+            <marker date="1519242022751" expanded="true" signature="503:511" ph="{...}" />
+            <marker date="1519242022751" expanded="true" signature="533:565" ph="{...}" />
+            <marker date="1519242022751" expanded="true" signature="618:663" ph="{...}" />
+            <marker date="1519242022751" expanded="true" signature="687:720" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Navigator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <marker date="1519242985167" expanded="true" signature="6:53" ph="..." />
+            <marker date="1519242985167" expanded="true" signature="81:564" ph="{...}" />
+            <marker date="1519242985167" expanded="true" signature="107:562" ph="{...}" />
+            <marker date="1519242985167" expanded="true" signature="179:208" ph="{...}" />
+            <marker date="1519242985167" expanded="true" signature="240:284" ph="{...}" />
+            <marker date="1519242985167" expanded="true" signature="314:341" ph="{...}" />
+            <marker date="1519242985167" expanded="true" signature="366:399" ph="{...}" />
+            <marker date="1519242985167" expanded="true" signature="431:559" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Features/YandexSearch.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Steps/YandexSearchSteps.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="53" column="49" lean-forward="false" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+          <folding>
+            <marker date="1519242464612" expanded="true" signature="6:78" ph="..." />
+            <marker date="1519242464612" expanded="true" signature="112:1524" ph="{...}" />
+            <marker date="1519242464612" expanded="true" signature="157:1522" ph="{...}" />
+            <marker date="1519242464612" expanded="true" signature="474:613" ph="{...}" />
+            <marker date="1519242464612" expanded="true" signature="693:728" ph="{...}" />
+            <marker date="1519242464612" expanded="true" signature="830:889" ph="{...}" />
+            <marker date="1519242464612" expanded="true" signature="964:1001" ph="{...}" />
+            <marker date="1519242464612" expanded="true" signature="1122:1193" ph="{...}" />
+            <marker date="1519242464612" expanded="true" signature="1291:1353" ph="{...}" />
+            <marker date="1519242464612" expanded="true" signature="1454:1519" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumTestTask/Pages/WikiArticlePage.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        <state relative-caret-position="187">
+          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
           <folding>
-            <marker date="1519242502688" expanded="true" signature="6:88" ph="..." />
-            <marker date="1519242502688" expanded="true" signature="122:487" ph="{...}" />
-            <marker date="1519242502688" expanded="true" signature="196:485" ph="{...}" />
-            <marker date="1519242502688" expanded="true" signature="356:364" ph="{...}" />
-            <marker date="1519242502688" expanded="true" signature="422:482" ph="{...}" />
+            <marker date="1519243059902" expanded="true" signature="6:88" ph="..." />
+            <marker date="1519243059902" expanded="true" signature="122:583" ph="{...}" />
+            <marker date="1519243059902" expanded="true" signature="196:581" ph="{...}" />
+            <marker date="1519243059902" expanded="true" signature="401:409" ph="{...}" />
+            <marker date="1519243059902" expanded="true" signature="467:578" ph="{...}" />
           </folding>
         </state>
       </provider>
