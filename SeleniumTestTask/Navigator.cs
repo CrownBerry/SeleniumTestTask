@@ -24,7 +24,8 @@ namespace SeleniumTestTask
 
 		public void SwitchToSecond()
 		{
-			_driver.SwitchTo().Window(_driver.WindowHandles[1]);
+			_driver.SwitchTo().Window(_driver.WindowHandles[0]).Close();
+			_driver.SwitchTo().Window(_driver.WindowHandles[0]);
 		}
 	}
 }
